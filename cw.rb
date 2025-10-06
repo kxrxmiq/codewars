@@ -7,3 +7,8 @@ end
 def repeat_str (n, s)
   s*n
 end
+
+#Invert values
+def invert(list)
+  list.map{|n| -n}
+end
