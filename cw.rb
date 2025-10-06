@@ -41,3 +41,8 @@ def area_or_perimeter(l, w)
     solution = l + w + l + w
 end
 end
+
+#Removing Elements
+def remove_every_other(arr)
+    result = arr.select.with_index { |_, index| index.even? }
+end
