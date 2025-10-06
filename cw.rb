@@ -32,3 +32,12 @@ def band_name_generator(name)
     'The '+ name[0].upcase + name[1..-1]
     end
 end
+
+#Area or Perimeter (1)
+def area_or_perimeter(l, w)
+  if l == w
+    solution = l*l
+  else
+    solution = l + w + l + w
+end
+end
