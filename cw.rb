@@ -7,3 +7,8 @@ end
 def repeat_str (n, s)
   s*n
 end
+
+#Complementary DNA
+def DNA_strand(dna)
+  dna.tr("ACTG", "TGAC")
+end
