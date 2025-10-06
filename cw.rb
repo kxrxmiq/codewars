@@ -80,3 +80,10 @@ end
 def find_longest(arr)
   arr.max_by { |num| num.to_s.length }
 end
+
+#reduce my fraction
+def reduce(fraction)
+    numerator, denominator = fraction
+  gcd = numerator.gcd(denominator)
+  [numerator / gcd, denominator / gcd]
+end
