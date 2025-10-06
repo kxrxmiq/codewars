@@ -46,3 +46,7 @@ end
 def remove_every_other(arr)
     result = arr.select.with_index { |_, index| index.even? }
 end
+#Leap Year
+def is_leap_year(year)
+  year % 100 == 0 ? year % 400 == 0 : year % 4 == 0 
+end
