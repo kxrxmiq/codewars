@@ -2,3 +2,8 @@
 def bool_to_word bool
 bool ? "Yes" : "No"
 end
+
+#String repeat
+def repeat_str (n, s)
+  s*n
+end
